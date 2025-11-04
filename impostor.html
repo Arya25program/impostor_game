@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMPOSTOR | Reveal Clue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Impostor Reveal</h1>
+
+        <div class="rules-box" id="impostor-info">
+            <p>Loading...</p>
+        </div>
+
+        <button class="btn back-btn" onclick="location.href='index.html'">Back to Menu</button>
+    </div>
+
+    <script>
+        const infoBox = document.getElementById("impostor-info");
+        const impostorInfo = JSON.parse(localStorage.getItem("impostorInfo"));
+
+        if (impostorInfo) {
+            infoBox.innerHTML = `
+                <p><b>Impostor:</b> ${impostorInfo.name}</p>
+                <p><b>Clue:</b> ${impostorInfo.clue}</p>
+                <hr>
+                <p><b>Actual Word:</b> ${impostorInfo.word}</p>
+            `;
+        } else {
+            infoBox.innerHTML = `<p>No impostor data found. Start a new round.</p>`;
+        }
+    </script>
+</body>
+</html>

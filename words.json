@@ -1,0 +1,12 @@
+[
+    { "word": "book", "clue": "paper" }, { "word": "water", "clue": "fluid" }, { "word": "apple", "clue": "fruit" }, 
+    { "word": "sun", "clue": "bright" }, { "word": "rain", "clue": "wet" }, { "word": "computer", "clue": "machine" },
+    { "word": "mountain", "clue": "tall" }, { "word": "car", "clue": "drive" }, { "word": "music", "clue": "sound" },
+    { "word": "coffee", "clue": "drink" }, { "word": "tree", "clue": "leaf" }, { "word": "phone", "clue": "call" },
+    { "word": "city", "clue": "urban" }, { "word": "ocean", "clue": "blue" }, { "word": "flower", "clue": "bloom" },
+    { "word": "dog", "clue": "bark" }, { "word": "cat", "clue": "meow" }, { "word": "bread", "clue": "loaf" },
+    { "word": "chair", "clue": "sit" }, { "word": "table", "clue": "dine" }, { "word": "star", "clue": "night" },
+    { "word": "cloud", "clue": "sky" }, { "word": "fire", "clue": "hot" }, { "word": "ice", "clue": "cold" },
+    { "word": "bird", "clue": "fly" }, { "word": "fish", "clue": "swim" }, { "word": "shoe", "clue": "foot" },
+    { "word": "hat", "clue": "head" }, { "word": "lamp", "clue": "light" }, { "word": "door", "clue": "entry" }
+]
