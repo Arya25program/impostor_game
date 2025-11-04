@@ -6,6 +6,11 @@ Can you find out who’s bluffing?
 
 ---
 
+## 🎯 Live Demo
+🔗 **Play the game here:** [arya25program.github.io/impostor_game](https://arya25program.github.io/impostor_game/)
+
+---
+
 ## 🎮 Gameplay Overview
 
 1. Enter all player names.  
@@ -29,6 +34,3 @@ Can you find out who’s bluffing?
 - Clean responsive UI built with HTML, CSS, and JavaScript.
 
 ---
-
-## 📁 Project Structure
-
